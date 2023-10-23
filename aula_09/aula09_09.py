@@ -20,13 +20,6 @@ while True:
             matriz4.append(i)
         elif len(matriz1) == 5 and len(matriz2) == 5 and len(matriz3) == 5 and len(matriz4) == 5 and len(matriz5) < 5:
             matriz5.append(i)
-        # switch_case = {
-        #     len(matriz1) < 5: matriz1.append(n),
-        #     len(matriz1) == 5 and len(matriz2) < 5: matriz2.append(n),
-        #     len(matriz1) == 5 and len(matriz2) == 5 and len(matriz3) < 5: matriz3.append(n),
-        #     len(matriz1) == 5 and len(matriz2) == 5 and len(matriz3) == 5 and len(matriz4) < 5: matriz4.append(n),
-        #     len(matriz1) == 5 and len(matriz2) == 5 and len(matriz3) == 5 and len(matriz4) == 5 and len(matriz5) < 5: matriz5.append(n),
-        # }
 
     if len(matriz1) == len(matriz2) == len(matriz3) == len(matriz4) == len(matriz5) == 5:
         break
